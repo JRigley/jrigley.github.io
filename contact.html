@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Jessica Rigley - Contact</title>
+		<title>Jessica Rigley - Contact Me</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -44,15 +44,45 @@
 					<div class="container">
 						<article id="main" class="special">
 							<header class="style2">
-								<h2>Contact</h2>
-								<!--<p>
-									Morbi convallis lectus malesuada sed fermentum dolore amet
-								</p>-->
+								<h2>Contact</h2>	
+                                <p>Feel free to reach out to me via email or using the form below!</p>
 							</header>
 						</article>
-						<hr />
-
-				</div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5 col-12-small">
+                                <h3>Address</h3>
+                                Institute of Astronomy <br>
+                                University of Cambridge <br>
+                                Madingley Road <br>
+                                Cambridge <br>
+                                CB3 0HA <br>
+                                <h3>Email</h3><a href="mailto:jkr40@cam.ac.uk">jkr40@cam.ac.uk</a>
+                            </div>
+                            
+                            <div class="col-7 col-12-small">
+                                <form action="email-form.php" method="POST" name="email-form">
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" value="" placeholder="Name" />
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" id="email" value="" placeholder="Email" />
+                                    <label for="message">Message:</label>
+                                    <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                                    <br>
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Send Message" class="primary" /></li>
+                                        <!--<li><input type="reset" value="Reset" /></li>-->
+                                    </ul>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <br><br>
 
 			<!-- Footer -->
 				<div id="footer">
