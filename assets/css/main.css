@@ -1848,14 +1848,24 @@ input, select, textarea {
 
         .image.scaled {
             float: left;
-            magin: 0 2em 2em 0;
-            width=400 px;
+            margin: 0 2em 2em 0;
+            width=400px;
         }
 
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
 		}
+
+        .image.right {
+			float: right;
+			margin: 1em 0 0.5em 1em;
+/*            left: 1em;*/
+/*            bottom: 1em;*/
+/*            top: 1em;*/
+/*            right: 0em;*/
+		}
+
 
 		.image.centered {
 			display: block;
@@ -2841,6 +2851,7 @@ input, select, textarea {
 			}
 
 			.image.left {
+/*                top right bottom left */
 				margin: 0 1em 1em 0;
 			}
 
