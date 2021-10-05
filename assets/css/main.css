@@ -243,6 +243,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+/*		@media screen {*/
 
 			.container {
 				width: 100%;
@@ -2238,10 +2239,10 @@ input, select, textarea {
 	#header {
 		position: relative;
 /*		background-image: url("../../images/header.jpg");*/
-/*        background-image: url("../../images/header_img.jpg");*/
-		background: url("../../images/header_img.jpg") center center;
+        background-image: url("../../images/header_img.jpg");
+/*		background: url("../../images/header_img.jpg") center center;*/
         background-size: cover;
-        /*		background-position: center center;*/
+        background-position: center center;
 /*        background-position: 25% 50%;*/
 		background-attachment: fixed;
 		color: #fff;
@@ -2710,7 +2711,8 @@ input, select, textarea {
 
 /* Normal */
 
-	@media screen and (max-width: 1280px) {
+/*	@media screen and (max-width: 1280px) {*/
+	@media screen {
 
 		/* Basic */
 
