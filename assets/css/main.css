@@ -2711,8 +2711,8 @@ input, select, textarea {
 
 /* Normal */
 
-/*	@media screen and (max-width: 1280px) {*/
-	@media screen {
+	@media screen and (max-width: 1280px) {
+/*	@media screen {*/
 
 		/* Basic */
 
